@@ -66,12 +66,12 @@ function find( value, array ){
 for ( let i = 0; i < array.length; i++) {
   if (array[i] == value ){
   return true;
+  }
 }
   return false;
 }
-}
-console.log('find function', find([1,2,3]));
-
+console.log('find function', (find(1,[1,2,3])));
+console.log('find function', (find(9,[2,3,6])));
 
 // ----------------------
 // Stretch Goals
